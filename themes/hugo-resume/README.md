@@ -57,9 +57,6 @@ Projects are added to one of 2 subfolders of `creations` or `contributions`. The
 ### Publications
 Similar to projects, create them under `publications`. Include any papers, speaking engagements, articles, etc.
 
-Modified template so if YAML contains `featured : false`, the article doesn't
-show on webpage.
-
 ### Template params
 
 All personal information outside the above details is captured by params in [`config.toml`](https://github.com/eddiewebb/hugo-resume/blob/master/exampleSite/config.toml)
@@ -117,11 +114,6 @@ All personal information outside the above details is captured by params in [`co
 [outputs] #only required for search
     home = ["HTML", "JSON"]
 ```
-
-## Changing colour schemes
-
-In order to change the colours of the site, I have added css variables in
-static/css/resume.css and static/css/tweaks.css. 
 
 ## Credits
 
