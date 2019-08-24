@@ -1,15 +1,15 @@
 [
     {
-        "school":"Rochester Institute of Technology",
-        "degree":"Bachelor of Science",
-        "major":"Management Information Systems",
-        "notes":"Beta Gamma Signma, High Honors",
-        "range":"2006 - 2008"
+        "school":"Monash University, Melbourne, Australia",
+        "degree":"PhD",
+        "major":"Computational Chemistry",
+        "notes":"",
+        "range":"2018 - Present"
     },
     {
-        "school":"Clinton Community College",
-        "degree":"Associate of Applied Science",
-        "major":"Computer Information Systems",
-        "range":"2004 - 2006"
+        "school":"Warwick University, Coventry, UK",
+        "degree":"MChem",
+        "major":"Chemistry with an emphasis on physical chemistry and polymer science. Masters project undertaken with Prof. Stefan Bon, involving the sythesis and characterisation of supramolecular functional low molecular weight polyTHF. Rheological testing was performed.",
+        "range":"2014 - 2018"
     }
 ]

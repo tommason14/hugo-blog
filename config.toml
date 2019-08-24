@@ -2,6 +2,7 @@ baseURL = "https://example.com/"
 languageCode = "en-gb"
 title = "Tom Mason"
 theme = "hugo-resume"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     firstName = "Tom"
@@ -9,19 +10,20 @@ theme = "hugo-resume"
     address = "Melbourne, Australia"
     phone = "1-555-555-1234"
     contactNote = "PhD Student"
-    profileImage = "img/TechChat.png"
-    email = "tom.mason14@gmail.com"
-    description = "PhD Student at Monash Unversity looking at chemistry through code."
+    profileImage = "img/12_apos.jpg"
+    email_visible = "tom.mason14@gmail.com"
+    email_target = "tom.mason14+website@gmail.com"
+    # description = "PhD Student at [Monash Unversity](www.monash.edu) looking at chemistry through code." # link not parsed
     favicon = "images/favicon.ico"
     # what sections
     showSkills = true
-    showProjects = true
-    showOpenSource = true
+    showProjects = false
+    showOpenSource = false
     showPublications = true
     showExperience = true
     showEducation = true
+    showBlog = false
     showQr = false
-    ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[params.handles]]
     name = "LinkedIn"

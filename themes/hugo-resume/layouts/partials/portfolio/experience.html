@@ -7,6 +7,11 @@
             <h3 class="mb-0">{{ .role }}</h3>
             <div class="subheading mb-3">{{ .company }}</div>
             <p>{{ .summary }}</p>
+            {{ if (not (eq .repo "")) }}
+            <p> See github repo 
+              <a href={{ .repo }} target="_blank">here.</a>
+            </p>
+            {{ end }}
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">{{ .range }}</span>

@@ -9,7 +9,7 @@
                 <span class="text-primary">{{ .Site.Params.lastName }}</span>
               </h1>
               <div class="subheading mb-5">{{ .Site.Params.address }} ·
-                <a href="mailto:{{ substr .Site.Params.email 0 5}}-remove-{{ substr .Site.Params.email 5 }}">{{ substr .Site.Params.email 0 5}}<span style="display:none">-remove-</span>{{ substr .Site.Params.email 5 }}</a>
+                <a href="mailto:{{ .Site.Params.email_target }}"> {{ .Site.Params.email_visible }}</a>
               </div>
             </div>
 
@@ -18,8 +18,10 @@
             {{ end }}
         </div>
         <div>
-          {{ .Site.Params.description }}
-          <br><br>
+          {{ if .Site.Params.description }}
+            {{ .Site.Params.description }}
+            <br><br>
+          {{ end }}
           {{ .Content }}
           <ul class="list-inline list-social-icons mb-0">
             {{ range .Site.Params.handles }}
