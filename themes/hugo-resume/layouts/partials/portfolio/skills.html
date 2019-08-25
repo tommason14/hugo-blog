@@ -9,18 +9,28 @@
                     <li class="list-inline-item">
                       <i class="devicons devicons-{{ cond (in $.Site.Data.devicons (lower .name)) (lower .name) "terminal_badge" }}"></i>
                       <a href="{{.link}}">{{ .name }}</a>
-                      <!-- font awesome -->
-                        
                     </li>
                 {{ else }}
                   <li class="list-inline-item">
                     <i class="devicons devicons-{{ cond (in $.Site.Data.devicons (lower .)) (lower .) "terminal_badge" }}"></i>
                     {{ . }}
-                  </li>
-                    
+                  </li>                    
                 {{ end }}
             {{ end }}
+
+            <!-- Tom addition -->
+            <!-- if no devicon, add to other array -->
+
+            {{ range .fontawesome }}
+              {{ range $name, $icon:= . }}
+                <li class="list-inline-item">
+                  <i class="{{ $icon }}"></i>
+                  {{ $name }}
+                </li>
+              {{ end }}
+            {{ end }}
             </ul>
+
     {{ end }}
   </div>
 </section>

@@ -1,12 +1,12 @@
 [
   {
       "grouping":"Languages, Operating Systems & Tools",
-      "skills":["Python","git","R","linux","bash","latex"],
-      "font-awesome":{"names" : ["R"], "icons": ["fab fa-r-project"]}
+      "skills":["Python","Git","Linux","Bash","LaTeX"],
+      "fontawesome":[{"R": "fab fa-r-project"}]
   },
   {
       "grouping":"Tools",
-      "skills":["High performance computing","ssh","rsync","Reproducible data science", 
-      "Jupyter","RMarkdown","Pandoc"]
+      "skills":["SSH","RSync", "Jupyter","Markdown","Pandoc"],
+      "fontawesome":[{"High Performance Computing": "devicons devicons-terminal"}]
   }
 ]

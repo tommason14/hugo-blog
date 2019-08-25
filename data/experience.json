@@ -1,15 +1,15 @@
 [
     {
-        "role":"Research Assistant- theoretical chemistry",
+        "role":"Research Assistant- Theoretical Chemistry",
         "company":"Warwick Manufacturing Group, Coventry, UK",
-        "summary":"Investigating recrystallisation kinetics of steel alloys.",
+        "summary":"Investigating recrystallisation kinetics of steel alloys, using Python and COMSOL multiphysics software.",
         "repo":"https://www.github.com/tommason14/wmg",
         "range":"July 2017 - October 2017"
     },
     {
-        "role":"Research Assistant- synthetic chemistry",
+        "role":"Research Assistant- Synthetic Chemistry",
         "company":"PepsiCo Ltd, Leicester, UK",
-        "summary":"Synthesis and detection of harmful substances in foods via GCMS methods. Involved solvent-solvent extraction in addition to spectrometer maintenance.",
+        "summary":"Synthesis and detection of harmful substances in foods via GCMS methods. Involved solvent-solvent extraction.",
         "repo":"",
         "range":"July 2018 - November 2018"
     }

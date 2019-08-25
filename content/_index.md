@@ -9,4 +9,6 @@ sitemap:
 title: Home
 ---
 PhD Student at [Monash Unversity](https://www.monash.edu) looking at chemistry through
-code.<br><br>
+code. 
+
+Working on polymer simulations.<br><br>
