@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://tommason14.github.io"
 languageCode = "en-gb"
 title = "Tom Mason"
 theme = "hugo-resume"
