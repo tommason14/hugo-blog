@@ -7,7 +7,7 @@ fact: Interesting little tidbit shown below image on summary and detail page
 featured: false
 image: /img/organicdevops.png
 link: http://www.alldaydevops.com/blog/organically-devops-building-quality-and-security-into-the-software-supply-chain-at-liberty-mutual
-pubtype: Talk
+pubtype: Paper
 sitemap:
   priority: 0.8
 tags:

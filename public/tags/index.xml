@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Tom Mason</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 08 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Free energy</title>
+      <link>https://example.com/tags/free-energy/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/free-energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IR</title>
+      <link>https://example.com/tags/ir/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/ir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Mechanics</title>
+      <link>https://example.com/tags/statistical-mechanics/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/statistical-mechanics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CI/CD pipelines</title>
